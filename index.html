@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<link  href="css/style.css" rel="stylesheet">
+<script src="caculator.js"></script>
+</head>
+<header>
+<h2> Lab7:JavaScript Arithmetic Operator</h2>
+</header>
+
+<fieldset >
+<legend>My caculator</legend>
+<textarea id="result">
+</textarea>
+</fieldset>
+
+<form class="form" name="inputForm" action="" method="GET">
+<fieldset >
+<legend>Input</legend>
+<label>Operands:</label>
+<input type="text" name="InputNum1"  size="5" required>
+<input type="text" name="InputNum2" size="5" required><br>
+<label>Operator:</label>
+<input type="button" value="+" onclick="Add()">
+<input type="button" value="&times;" onclick="Multiply()">
+<input type="button" value=":" onclick="Divide()">
+<input type="button" value="clear" onclick="Clear()">
+</fieldset>

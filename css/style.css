@@ -1,0 +1,23 @@
+input{
+    margin: 5px 0;
+}
+fieldset{
+    width: 250px;
+    padding: 10px 20px;
+    background-color:lightsteelblue;
+    margin-bottom: 10px;
+    height:80px;
+}
+textarea{
+    height: 50px;
+    width:200px;
+    margin:auto;
+    padding: 10px,20px ;
+    font-size: large;
+}
+
+legend{
+    background-color: slategray;
+    padding: 0 10px;
+    color:white;
+}
